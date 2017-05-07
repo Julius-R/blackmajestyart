@@ -1,52 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>BlackMajestyArt</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Black Majesty Art</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Author" content="Markeisha Shorter">
+  <meta name="Description" content="Hello! Welcome to my art website!">
   <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container">
-  <header>
-    <a href="index.html"><img src="img/bma.png"></a>
-  </header>
-</div>
-<nav class="nav">
-  <ul class="nav nav-tabs">
-    <li role="presentation" class="active"><a href="index.html">Home</a></li>
-    <li role="presentation"><a href=""  onclick="show()">My Blog</a></li>
-    <li role="presentation"><a href="MyArt.html">My Art</a></li>
-    <li role="presentation"><a href="faq.html">FAQ</a></li>
-    <li role="presentation"><a href="mailto:mshorter2012@gmail.com">Contact Me</a></li>
-  </ul>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Black Majesty Art</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="MyArt.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
-<div class="row">
-  <div class="col-xs-12 col-sm-6 col-md-8">
-    <h2>About Me</h2>
-       <h3>"The Hand Behind the Brush"</h3>
-         <p>My name is Markeisha Shorter. I&#8217;m a twenty-three year old artist, born and raised in Louisiana. I started drawing and painting as a toddler, and it quickly became the biggest part of my life. Since then, I&#8217;ve dedicated my time to perfecting my craft, hoping to share my creations with art lovers around the globe. One day, I hope to be a graphic designer as well.  I believe that the world is filled with beauty, and I try to reflect that through my art. For me, this isn&#8217;t just a hobby. It&#8217;s what I love.</p>
-  </div>
-<div class="col-xs-6 col-md-4">
-  <h2>Updates!</h2>
-  <h3>Resuming Commisions</h3>
-    <p>Commissions have officially been reopened! If you would like to place an order, send me an email using the contact link at the top of the page.  Inquiries are welcomed as well, free of charge, of course!</p>
-    <h3>Digital Drawings</h3>
-    <p>Within the next few months, I plan on starting to add digital drawings as well! I will still do paintings, but I will also do digital requests. More on that as developments unfold.</p>    
-  </div>     
-<div class="col-xs-12 col-sm-6 col-md-8">
-  <h2>Welcome!</h2>
-    <p>Thanks for visiting my page! I hope that you enjoy what you see, and maybe even get a little inspired. Remember, always try to find beauty, even in the darkest places.</p>
-    <p>Also, If you have any questions, I have a faq page for the more commonly asked ones. Other than that, feel free to send me an email. The contact me button links to my email!</p>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <img src="img/bma.png" alt="">
   </div>
 </div>
-<footer>
-  <p>&copy; Black Majesty Arts</p>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Most Recent Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p></p>
+      <img src="img/art2.jpg" class="img-responsive" style="width:100%; height: 350px;" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p></p>
+      <img src="img/art3.jpg" class="img-responsive" style="width:100%; height: 350px;%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p></p>
+      <img src="img/art13.png" class="img-responsive" style="width:100%; height: 350px;%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p></p>
+      <img src="img/art14.png" class="img-responsive" style="width:100%; height: 350px;" alt="Image">
+    </div>
+  </div>
+</div><br>
+<br><br>
+<footer class="container-fluid text-center">
+  <p>Black Majesty Arts &copy; 2016-2017</p>
 </footer>
-<script src="js/js.js"></script>  
-<script src="js/main.js"></script>
+
 </body>
 </html>

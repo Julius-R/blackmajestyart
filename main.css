@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poiret One' , cursive;
+  background-color: #6FB88E;
+  color: #fff;
+}
+
+p{
+  font-size: 1.25em;
+}
+
+/* Navigation Bar*/
+.navbar {
+  margin: 0;
+  border-radius: 0;
+  background-color: #2A7772;
+  color: #fff;
+}
+
+/*Brand Logo*/
+.jumbotron{
+  background-color: #000;
+}
+
+.jumbotron img{
+  width: 50%;
+  height: 250px;
+}
+
+/*Contatact Form*/
+form{
+  margin: 0 auto;
+  width: 50%;
+}
+
+/*Footer*/
+footer{
+  background-color: #004445;
+  color: #fff;
+}
+
+@media (min-width: 1350px){
+  br{
+    height: 50px;
+  }
+}
+
+/*Mobile Styles*/
+@media (max-width: 600px) {
+  .jumbotron img{
+  width: 100%;}
+
+  form{width: 100%; padding: 10px;}
+}
